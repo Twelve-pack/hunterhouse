@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:'Lato', sans-serif ;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image:url(bg2.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-left: 3%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 40px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color:#f9004d ;
+}
+
+.btn{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+
+.news{
+	position: absolute;
+	top: 50%;
+	left: 36%;
+}
+
+news form{
+	width: 300px;
+	max-width: 100px;
+    position: relative;
+}
+
+.news form input:first-child{
+	display:inline-block ;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+.news form input:last-child{
+	display:inline-block ;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+.btn2{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	position: absolute;
+	padding left: 36%;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+
+.name{
+	color: white;
+	position: absolute;
+	right: 30%;
+	left: 30%;
+ }  
